@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    android:padding="23dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/hoursEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="monospace"
+        android:hint="Monthly Salary"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/rateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:hint="Months"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/paymentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:text="Payment: $0.00" />
+
+    <TextView
+        android:id="@+id/taxTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:fontFamily="monospace"
+        android:text="Tax: $0.00" />
+
+    <TextView
+        android:id="@+id/totalPaymentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:fontFamily="monospace"
+        android:text="Total Payment: $0.00" />
+
+
+</LinearLayout>

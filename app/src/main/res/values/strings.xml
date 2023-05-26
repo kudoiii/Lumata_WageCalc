@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Wage Calculator</string>
+    <string name="payment_result">Payment: %s</string>
+    <string name="tax_result">Tax: %s</string>
+    <string name="total_payment_result">Total Payment with Tax: %s</string>
+</resources>
